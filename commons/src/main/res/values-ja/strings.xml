@@ -67,7 +67,7 @@
     <string name="simple_renaming">Simple renaming</string>
     <string name="pattern_renaming">Pattern</string>
     <string name="string_to_add">String to add</string>
-    <string name="rename_date_time_pattern">%Y - year\n%M - month\n%D - day\n%h - hour\n%m - minute\n%s - second\n%i - number increasing from 1</string>
+    <string name="rename_date_time_pattern">%Y - 年\n%M - 月\n%D - 日\n%h - 時\n%m - 分\n%s - 秒\n%i - number increasing from 1</string>
 
     <!-- Copy / Move -->
     <string name="copy">コピー</string>
@@ -94,7 +94,7 @@
     <string name="saving">保存中…</string>
     <string name="could_not_create_folder">フォルダ %s を作成できません</string>
     <string name="could_not_create_file">ファイル %s を作成できません</string>
-    <string name="no_new_items">No new items have been found</string>
+    <string name="no_new_items">新しいアイテムは見つかりませんでした</string>
     <string name="no_space">The destination does not have enough space available.\nRequired %1$s, available %2$s</string>
 
     <!-- Create new -->
@@ -166,8 +166,8 @@
     <string name="camera">カメラ名</string>
     <string name="exif">EXIF</string>
     <string name="song_title">曲名</string>
-    <string name="gps_coordinates">GPS coordinates</string>
-    <string name="altitude">Altitude</string>
+    <string name="gps_coordinates">GPS座標</string>
+    <string name="altitude">高度</string>
 
     <!-- Color customization -->
     <string name="background_color">背景色</string>
@@ -177,8 +177,8 @@
     <string name="app_icon_color">アプリアイコンの色</string>
     <string name="bottom_navigation_bar_color">ナビゲーションバーの色</string>
     <string name="restore_defaults">デフォルトに戻す</string>
-    <string name="use_default">Use default</string>
-    <string name="default_color">Default</string>
+    <string name="use_default">デフォルトを使用</string>
+    <string name="default_color">デフォルト</string>
     <string name="change_color">色を変更</string>
     <string name="theme">テーマ</string>
     <string name="changing_color_description">色を変更すると、テーマが「カスタム」に切り替わります</string>
@@ -280,9 +280,9 @@
     <string name="go_to_settings">設定に移動</string>
     <string name="protection_setup_successfully">パスワードの設定が完了しました。パスワードを紛失した場合は、アプリを再インストールしてください</string>
     <string name="fingerprint_setup_successfully">指紋認証の設定が完了しました。何らかの問題によりアプリを再インストールした場合には、再度設定し直してください。</string>
-    <string name="lock_folder">Lock folder</string>
-    <string name="unlock_folder">Unlock folder</string>
-    <string name="lock_folder_notice">This protection works in this app only, it is not supposed to replace a real systemwide folder encryption.</string>
+    <string name="lock_folder">フォルダをロック</string>
+    <string name="unlock_folder">フォルダのロックを解除</string>
+    <string name="lock_folder_notice">この保護機能はこのアプリでのみ機能します。実際のシステム全体のフォルダ暗号化に代わるものではありません。</string>
 
     <!-- Times -->
     <string name="yesterday">昨日</string>
@@ -326,15 +326,19 @@
         <item quantity="other">%d時間</item>
     </plurals>
     <plurals name="in_days">
+        <item quantity="one">%d day</item>
         <item quantity="other">%d days</item>
     </plurals>
     <plurals name="in_weeks">
+        <item quantity="one">%d week</item>
         <item quantity="other">%d weeks</item>
     </plurals>
     <plurals name="in_months">
+        <item quantity="one">%d month</item>
         <item quantity="other">%d months</item>
     </plurals>
     <plurals name="in_years">
+        <item quantity="one">%d year</item>
         <item quantity="other">%d years</item>
     </plurals>
 
@@ -352,13 +356,13 @@
         <item quantity="other">%d日前</item>
     </plurals>
     <plurals name="weeks_before">
-        <item quantity="other">%d weeks before</item>
+        <item quantity="other">%d週間前</item>
     </plurals>
     <plurals name="months_before">
-        <item quantity="other">%d months before</item>
+        <item quantity="other">%dヶ月前</item>
     </plurals>
     <plurals name="years_before">
-        <item quantity="other">%d years before</item>
+        <item quantity="other">%d年前</item>
     </plurals>
 
     <!-- For example: Postpone reminder by 3 minutes -->
@@ -372,15 +376,19 @@
         <item quantity="other">%d時</item>
     </plurals>
     <plurals name="by_days">
+        <item quantity="one">%d day</item>
         <item quantity="other">%d days</item>
     </plurals>
     <plurals name="by_weeks">
+        <item quantity="one">%d week</item>
         <item quantity="other">%d weeks</item>
     </plurals>
     <plurals name="by_months">
+        <item quantity="one">%d month</item>
         <item quantity="other">%d months</item>
     </plurals>
     <plurals name="by_years">
+        <item quantity="one">%d year</item>
         <item quantity="other">%d years</item>
     </plurals>
 
@@ -555,7 +563,7 @@
     <string name="share_text">%2$s で %1$s を確認してください</string>
     <string name="invite_via">招待</string>
     <string name="rate_us_underlined"><u>Playストアで評価してください</u></string>
-    <string name="rate">Rate</string>
+    <string name="rate">評価</string>
     <string name="donate">寄付</string>
     <string name="donate_underlined"><u>寄付</u></string>
     <string name="follow_us">フォローしてください</string>
@@ -592,7 +600,7 @@
 
     <string name="sideloaded_app">
         <![CDATA[
-            It looks like your app version is corrupt. Please download the original version <a href="%s">here</a>.
+            お使いのアプリバージョンが破損しているようです。<a href="%s">こちら</a>からオリジナルバージョンをダウンロードしてください。
         ]]>
     </string>
 
